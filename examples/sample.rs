@@ -1,6 +1,5 @@
 use inconsistent_import::*;
 use image;
-use image::GenericImageView;
 
 // thread 'main' panicked at 'src\librustc_resolve\resolve_imports.rs:970: inconsistent resolution for an import', src\librustc\util\bug.rs:47:26
 //
