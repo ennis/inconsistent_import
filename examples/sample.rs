@@ -6,7 +6,7 @@ use image;
 // if the glob import is replaced by `inconsistent_import::image`, the compiler (correctly) emits
 //      error[E0252]: the name `image` is defined multiple times
 //
-// if the glob import is moved after the two imports, the code compiles
+// if the glob import is moved after, the code compiles
 
 fn main()
 {
